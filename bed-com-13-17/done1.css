@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+body {
+    color: #e9d0d0;
+    background-color: #d69c27;
+    background-image: url("img/dark-wood.jpg");
+    background-position: center;
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+    margin: 0px;
+    margin: 10;
+    padding: 1px;
+}
+
+h1{
+    font:bold 30px Tohama;
+    position: absolute;
+    top: 30px;
+    left: 400px;
+    text-align: center;
+    color: black;
+}
+
+h2{
+    font:bold 30px Tohama;
+    text-align: center;
+    background: rgb(146, 24, 24);
+}
+h3{
+    text-align: center;
+    background:rgb(24, 94, 24);
+}
+h4{
+    font:bold 16px Tohama;
+    text-align: center;
+    background: rgb(126, 63, 63); 
+}
+
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;}
+
+#don{
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+    
+header {
+    height: 160px;
+    background-image: url(img/bg.jpg);}
+
+.image{
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    height:20px;
+    height: 180px;
+    background:rgb(201, 201, 97);
+}
+img{
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    margin: 10px;
+    border: 2px solid-red;
+}
+
+a{
+	color: blue;
+    align-content: center;
+    position: absolute;
+    left: 500px;
+    top: 100;
+
+}
+
+.sections{
+	width: 80%;
+	overflow: hidden;
+	background: rgb(198, 157, 236);
+	margin: 20px auto;
+	padding: 20px;
+    border: solid;
+}
+.sections ul{
+	padding: 0px;
+	margin: 0px;
+    border:transparent;
+    background:no-repeat;
+}
+.sections ul li{
+    width: 20%;
+	border: solid;
+	list-style: none;
+	float:left;
+	height: 300px;
+	background-color: rgb(134, 105, 105);
+	margin:  40px 43px 0px 50px;
+}
+
+.experiences{
+    border: 2px solid rgb(24, 24, 61);
+    margin: 10px auto;
+    width: 900px;
+    text-align: center;
+    width: 85%;
+    
+}
+.experiences.li{
+    text-align: center;
+}
+
+.contact-details{
+    margin: 10px auto;
+   
+    width: 85%;
+}
+footer{
+    text-align: center;
+    background: #000;
+    margin: 10px auto;
+    width: 900px;
+    text-align: center;
+    width: 85%;
+    
+}
